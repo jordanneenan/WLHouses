@@ -1,0 +1,3 @@
+[04-Jun-2015 19:08:06 UTC] WordPress database error Can't DROP 'slug'; check that column/key exists for query ALTER TABLE fmee_terms DROP INDEX slug, ADD INDEX slug(slug(191)) made by wp_upgrade, pre_schema_upgrade
+[04-Jun-2015 19:55:08 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/wlc2015/public_html/wp-content/themes/ken/framework/php/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php on line 31
+[04-Jun-2015 19:56:12 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/wlc2015/public_html/wp-content/themes/ken/framework/php/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php on line 31
