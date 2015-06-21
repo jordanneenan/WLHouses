@@ -9,11 +9,156 @@ Version:		3.2
 */
 
 
-/*
-Sample : remove the comment and start adding your own custom CSS rules.
-
-body {
-	background-color:#fff;
+header{
+	position: absolute;
+	left: -300px;
+	background-color: rgba(0,0,0,0.5);
+	transition: left 0.4s ease-in-out;
 }
 
-*/
+header.active{
+	left: 0;
+}
+
+
+.top-bar{
+	height: 80px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 59;
+}
+
+.hamburger{
+	position: absolute;
+	top: 26px;
+	left: 30px;
+	height: 33px;
+	width: 40px;
+	cursor: pointer;
+	z-index: 61;
+}
+
+.line{
+	width: 100%;
+	background-color: #fff;
+	height: 4px;
+	margin-bottom: 7px;
+}
+.hr {
+	width: 100px !important;
+}
+h2 {
+	margin: 0 !important;
+	text-transform: uppercase;
+}
+#mk-header {
+	background-color: rgba(0,0,0,0.8) !important;
+}
+#mk-header li a {
+	color: #fff !important;
+	padding: 20px 0;
+}
+.box-image {
+	height: 100px;
+	width: 100px;
+	padding-bottom: 20px;
+	transition: all 0.4s ease-in-out;
+	
+}
+.box-image:hover {
+	transform: scale(1.2,1.2);
+}
+
+.mk-vertical-menu {
+	padding-top: 60px !important;
+}
+.mk-box-icon.style1-box .icon-box-title {
+	text-transform: uppercase;
+	font-size: 24px !important;
+}
+.edge-content-holder {
+	height: 300px;
+	width: 100%;
+	background-image: url("images/logo-large.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	margin-top: 200px !important;
+}
+.featured-image {
+	display: none;
+}
+
+#mk-page-title.left-align .mk-page-heading {
+	padding: 120px 0 10px 0 !important;
+	margin-bottom: -80px;
+	float: none !important;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.entry-meta {
+	display: none;
+}
+
+.about-author-wrapper {
+	display: none;
+}
+
+#comments {
+	display: none;
+}
+.single-content {
+	padding: 0 0 20px 0 !important;
+	text-align: center;
+}
+.single-social-share {
+	margin-bottom: 80px !important;
+	text-align: center !important;
+	float: none !important;
+}
+#mk-page-title {
+	padding: 0 !important;
+}
+#theme-page .theme-page-wrapper {
+	margin-bottom: 0 !important;
+}
+#theme-page .theme-page-wrapper .theme-content {
+	padding: 0 !important;
+}
+.vc_btn3-container.vc_btn3-left {
+	display: none;
+}
+.vc_grid-item-mini {
+	position: relative;
+}
+.vc_gitem-zone-mini {
+	padding: 0 !important;
+}
+.vc_gitem_row {
+	padding: 0 !important;
+}
+.vc_gitem_row .vc_gitem-col {
+	background-color: rgba(0,0,0,0.5); !important;
+	padding: 0 !important;
+}
+.vc_gitem_row .vc_gitem-col h4,p {
+	color: #fff !important;
+}
+
+
+.theme-main-wrapper.vertical-expanded-state #theme-page > .mk-main-wrapper-holder, .theme-main-wrapper.vertical-expanded-state #theme-page > .mk-page-section, .theme-main-wrapper.vertical-expanded-state #theme-page > .wpb_row, .theme-main-wrapper.vertical-expanded-state #mk-page-title, .theme-main-wrapper.vertical-expanded-state #mk-footer{
+	padding-left: 0 !important;
+}
+#mk-breadcrumbs {
+	display: none;
+}
+
+.theme-main-wrapper {
+	z-index: initial !important;
+}
+
+
+
+
