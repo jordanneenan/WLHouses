@@ -1,7 +1,7 @@
 /*
 Theme Name:		Ken Child Theme
 Theme URI:		http://themeforest.net/user/artbees
-Description:	Child theme for the Ken theme 
+Description:	Child theme for the Ken theme
 Author:			Your name here
 Theme URI:		http://themeforest.net/user/artbees
 Template:		ken
@@ -20,6 +20,9 @@ header.active{
 	left: 0;
 }
 
+.mk-padding-wrapper .vc_custom_1433514352866{
+	  margin-top: 0 !important;
+}
 
 .top-bar{
 	height: 80px;
@@ -71,7 +74,7 @@ h4 {
 	width: 100px;
 	padding-bottom: 20px;
 	transition: all 0.4s ease-in-out;
-	
+
 }
 .box-image:hover {
 	transform: scale(1.2,1.2);
@@ -90,8 +93,16 @@ h4 {
 	background-image: url("images/logo-large.png");
 	background-repeat: no-repeat;
 	background-position: top;
-	margin-top: 200px !important;
+	margin-top: 0 !important;
 }
+
+.mk-edge-slider .mk-grid{
+	  top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
 .featured-image {
 	display: none;
 }
@@ -146,7 +157,7 @@ h4 {
 	padding: 0 !important;
 }
 .vc_gitem_row .vc_gitem-col {
-	
+
 }
 .vc_gitem_row .vc_gitem-col h4,p {
 	color: #fff !important;
@@ -154,11 +165,11 @@ h4 {
 }
 
 .vc_gitem_row .vc_gitem-col p {
-	font-style: italic; 
+	font-style: italic;
 	font-size: 16px;
 }
 .vc_gitem_row .vc_gitem-col h4 {
-	text-transform: uppercase; 
+	text-transform: uppercase;
 	font-size: 20px;
 	margin-bottom: 0 !important;
 }
@@ -198,7 +209,7 @@ h4 {
 
 .vc_grid-item:hover .vc_grid-item-mini .vc_gitem-zone-c{
 	height: 100%;
-	padding: 65px 10px 10px !important;
+	padding: 100px 10px 10px !important;
 }
 
 
@@ -230,7 +241,7 @@ text-align: right !important;
 }
 
 .vc_gitem-zone {
-	max-height: 200px;
+	max-height: 270px;
 }
 
 
