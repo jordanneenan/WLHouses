@@ -61,6 +61,21 @@ h2 {
 h4 {
 	margin-bottom: 10px;
 }
+.hero-text {
+	position: absolute;
+	top: 400px;
+	left: 0;
+	height: 125px;
+	width: 100%;
+	z-index: 99;
+	
+}
+.hero-text h2 {
+	text-transform: none !important;
+}
+.page-section-558bde465a766 {
+	margin-bottom: -25px !important;
+}
 
 #mk-header {
 	background-color: rgba(0,0,0,0.8) !important;
