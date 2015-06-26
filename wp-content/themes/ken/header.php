@@ -225,10 +225,14 @@ if($post_id) {
 
 <div class="top-bar"></div>
 <div class="hamburger">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </div>
+    <p>Menu</p>
+</div>
+<div class="top-bar-button-1">
+    <a href="#">Contractor Login</a>
+</div>
+<div class="top-bar-button-2">
+    <a href="#">Client Login</a>
+</div>
 <div class="theme-main-wrapper <?php echo $mk_main_wrapper_class; ?>">
 
 
