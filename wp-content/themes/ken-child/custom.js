@@ -41,10 +41,48 @@ function vAlign($selector){
     }
 }
 
+smoothScroll.init();
+
+function headerScroll(){
+    $('.wpb_wrapper a').click(function() {
+        smoothScroll.animateScroll( null, '#down-arrow-link');
+    });
+}
+
+
+
+
+
 //--------- on window load ---------
 jQuery(window).load(function(){
+    //$('.wpb_wrapper a').attr('data-scroll', '');
+    headerScroll();
+
+    $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $(".home").addClass('shrink','');
+    } else {
+        $(".home").removeClass('shrink','');
+    }
+});
 });
 
 //-------- on window resize --------
 jQuery(window).resize(function(){
 });
+
+
+    
+
+
+
+
+
+
+
+
+
+
+

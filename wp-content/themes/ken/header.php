@@ -80,6 +80,8 @@ global $mk_settings, $mk_accent_color, $post, $ken_json;
 
         <script type="text/javascript" src="http<?php echo (is_ssl())? 's' : ''; ?>://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 
+        <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/vendor/smoothScroll.js"></script>
+
 
 
          <script type="text/javascript">
